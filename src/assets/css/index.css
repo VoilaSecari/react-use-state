@@ -1,16 +1,45 @@
-.btn {
-  background-color: rgb(215, 215, 215);
-  border: 1px solid currentColor;
-  border-radius: 0.8rem;
-  color: black;
-  padding: 1rem 1.5rem;
-  font-size: 1rem;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.red {
-  background-color: red;
+.btn {
+  background-color: rgb(47, 64, 130);
+  border: 1px solid black;
+  border-radius: 0.3rem;
+  color: white;
+  padding: 0.5rem 1rem;
+  font-size: 0.6rem;
 }
 
 .btn:hover {
   cursor: pointer;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.container-elementi {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container-item {
+  background-color: rgb(239, 239, 239);
+  padding: 1rem;
+  border: 0.5px solid rgb(119, 119, 119);
+  border-radius: 0.3rem;
+}
+
+.item-title {
+  color: rgb(47, 64, 130);
+  padding-bottom: 0.7rem;
+}
+
+.item-content {
+  font-weight: 200;
+  font-size: 0.8rem;
 }
